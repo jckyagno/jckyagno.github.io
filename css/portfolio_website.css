@@ -234,8 +234,8 @@ img {
     background-color: rgb(0, 91, 147);
     opacity: .9;
     transition: .3s;
-    /*min-height: 400px;
-    margin: 0;*/
+    min-height: 400px;
+    margin: 0;
 }
 
 .photo_container:hover {
@@ -287,6 +287,14 @@ img {
 #github_logo {
     padding: 10px 10px 10px 10px;
     width: 500px;
+}
+#linkedin_logo {
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+}
+
+#gundam-2 {
+    transform: translate(0px, 280px);
 }
 
 /* END ABOUT */
@@ -407,7 +415,7 @@ button[type=button]:hover {
 /* FOOTER */
 
 .footer_container {
-    padding-top: 384px;
+    padding-top: 784px;
 }
 
 .footer_container p {
