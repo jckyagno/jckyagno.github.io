@@ -287,11 +287,37 @@ img {
 #github_logo {
     padding: 10px 10px 10px 10px;
     width: 500px;
+    border-radius: 10px;
 }
+
+    #github_logo:hover {
+        background-color: rgba(240, 248, 255, .1);
+        transition: .3s;
+    }
+
+
 #linkedin_logo {
     padding: 10px 10px 10px 10px;
     width: 500px;
+    border-radius: 10px;
 }
+
+    #linkedin_logo:hover {
+        background-color: rgba(240, 248, 255, .1);
+        transition: .3s;
+    }
+
+#resume_logo {
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+    #resume_logo:hover {
+        background-color: rgba(240, 248, 255, .1);
+        transition: .3s;
+    }
 
 #gundam-2 {
     transform: translate(0px, 280px);
